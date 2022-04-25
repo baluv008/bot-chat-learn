@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Train Bot</title>
+    <link rel="stylesheet"  href="style.css" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/chatbot.js') }}"></script>
+  </head>
+  <body>
+    <div class="train">
+        <table id="chatterbox" class="chatboxmain" style="box-shadow: 10px 10px 40px 20px #0ff;">
+          <tr>
+            <td>
+
+        </td>
+          </tr>
+          <tr>
+            <td>
+              <div id="chatcontent"  class="chatbox">
+
+
+            <div class="container darker">
+                <p class="message bot"> Welcome. How may I help You?</p>
+            </div>
+            </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div style="100%;background:white">
+                <input class="enterinput" id="textInput" type="text" name="msg" style="width:80%;border-color: #ffffff14;border-radius:12px;"  autocomplete="off" placeholder="Start typing your message..."/>
+                <button class="snd-btn" onclick="send_chat()">Send</button>
+
+              </div>
+            </td>
+          </tr>
+        </table>
+
+        </div>
+            <!---</form> --->
+
+
+        <!---<iframe src="https://traintimes.org.uk/live/southampton" width="500" height="300"></iframe>-->
+        <div class="rightpart">
+
+          <div class="chat">
+            <button id="icon" onclick="func()">
+              <img
+                id="icon"
+                class="icon"
+                src="{{ url_for('static', filename='images/bot.png') }}"
+                alt="the icon of chatbot"/>
+            </button>
+          </div>
+        </div>
+
+  </body>
+    <script>
+      var wrapper = $( "#button-wrapper" );
+
+$( ".submit" ).click(function() {
+      if(wrapper.not( ".checked" )) {
+            wrapper.addClass( "checked" );
+            setTimeout(function(){
+                wrapper.removeClass( "checked" );
+            }, 8000);
+       }
+});
+    </script>
+</html>

@@ -1,0 +1,166 @@
+{
+    "text": "at what time is the train from London Waterloo Station to Southampton Central",
+    "ents": [
+        {
+            "start": 31,
+            "end": 37,
+            "label": "GPE"
+        },
+        {
+            "start": 58,
+            "end": 77,
+            "label": "ORG"
+        }
+    ],
+    "sents": [
+        {
+            "start": 0,
+            "end": 77
+        }
+    ],
+    "tokens": [
+        {
+            "id": 0,
+            "start": 0,
+            "end": 2,
+            "tag": "IN",
+            "pos": "ADP",
+            "morph": "",
+            "lemma": "at",
+            "dep": "prep",
+            "head": 3
+        },
+        {
+            "id": 1,
+            "start": 3,
+            "end": 7,
+            "tag": "WDT",
+            "pos": "DET",
+            "morph": "",
+            "lemma": "what",
+            "dep": "det",
+            "head": 2
+        },
+        {
+            "id": 2,
+            "start": 8,
+            "end": 12,
+            "tag": "NN",
+            "pos": "NOUN",
+            "morph": "Number=Sing",
+            "lemma": "time",
+            "dep": "pcomp",
+            "head": 0
+        },
+        {
+            "id": 3,
+            "start": 13,
+            "end": 15,
+            "tag": "VBZ",
+            "pos": "AUX",
+            "morph": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+            "lemma": "be",
+            "dep": "ROOT",
+            "head": 3
+        },
+        {
+            "id": 4,
+            "start": 16,
+            "end": 19,
+            "tag": "DT",
+            "pos": "DET",
+            "morph": "Definite=Def|PronType=Art",
+            "lemma": "the",
+            "dep": "det",
+            "head": 5
+        },
+        {
+            "id": 5,
+            "start": 20,
+            "end": 25,
+            "tag": "NN",
+            "pos": "NOUN",
+            "morph": "Number=Sing",
+            "lemma": "train",
+            "dep": "nsubj",
+            "head": 3
+        },
+        {
+            "id": 6,
+            "start": 26,
+            "end": 30,
+            "tag": "IN",
+            "pos": "ADP",
+            "morph": "",
+            "lemma": "from",
+            "dep": "prep",
+            "head": 5
+        },
+        {
+            "id": 7,
+            "start": 31,
+            "end": 37,
+            "tag": "NNP",
+            "pos": "PROPN",
+            "morph": "Number=Sing",
+            "lemma": "London",
+            "dep": "compound",
+            "head": 9
+        },
+        {
+            "id": 8,
+            "start": 38,
+            "end": 46,
+            "tag": "NNP",
+            "pos": "PROPN",
+            "morph": "Number=Sing",
+            "lemma": "Waterloo",
+            "dep": "compound",
+            "head": 9
+        },
+        {
+            "id": 9,
+            "start": 47,
+            "end": 54,
+            "tag": "NNP",
+            "pos": "PROPN",
+            "morph": "Number=Sing",
+            "lemma": "Station",
+            "dep": "pobj",
+            "head": 6
+        },
+        {
+            "id": 10,
+            "start": 55,
+            "end": 57,
+            "tag": "IN",
+            "pos": "ADP",
+            "morph": "",
+            "lemma": "to",
+            "dep": "prep",
+            "head": 5
+        },
+        {
+            "id": 11,
+            "start": 58,
+            "end": 69,
+            "tag": "NNP",
+            "pos": "PROPN",
+            "morph": "Number=Sing",
+            "lemma": "Southampton",
+            "dep": "compound",
+            "head": 12
+        },
+        {
+            "id": 12,
+            "start": 70,
+            "end": 77,
+            "tag": "NNP",
+            "pos": "PROPN",
+            "morph": "Number=Sing",
+            "lemma": "Central",
+            "dep": "pobj",
+            "head": 10
+        }
+    ]
+}

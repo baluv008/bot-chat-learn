@@ -1,0 +1,42 @@
+{"intentions": [
+  {
+    "type": "beggining_greetings",
+    "incoming": ["hai","hi","hello","hey"],
+    "outgoing": ["Hai!","Hello!","Hi."]
+  },
+  {
+    "type": "end_greetings",
+    "incoming": ["Bye","BuBye","goodbye","by","end","stop","im leaving","exit"],
+    "outgoing": ["GoodBye!","Bye Bye!"]
+  },
+  {
+    "type": "gratitudes",
+    "incoming": ["thanks","thank","thank you","thank you very much"],
+    "outgoing": ["You're welcome!","anytime!","no problem!","cool!","I'm here if you need me!","mention not"]
+  },
+  {
+    "type": "timing_from_to_after",
+    "incoming": ["I need to book ticket",  "i want book ticket from to at","i want to go from to on","when is the next train from to after"],
+    "outgoing": ["Show train from source to destination on or after time "]
+  },
+  {
+    "type": "ticket_price",
+    "incoming": ["How much is the ticket price from to",  "What is the ticket cost","How much is for first class ticket","Minimum ticket price"],
+    "outgoing": ["Show ticket price"]
+  },
+
+  {
+    "type": "stops_between",
+    "syb_type":
+    {
+      "label": "count",
+       "incoming": ["how many stops  from to","number of stations between","how many of stations between"]
+    },
+
+    "incoming": ["show me the stops","how many stops  from to","number of stations between","how many of stations between","I need to know the sops between station",  "What are the stops from to","Show me the stops from to"],
+    "outgoing": ["Show all stops between"]
+  }
+
+  ]
+}
+
